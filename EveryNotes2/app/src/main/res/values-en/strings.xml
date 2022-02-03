@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Every Notes</string>
+    <string name="tod">TODO</string>
+    <string name="yeniekle">+</string>
+    <string name="textview">TextView</string>
+    <string name="backview">no</string>
+    <string name="todo">TODO</string>
+    <string name="tarihvesaat">Tarihvesaat</string>
+    <string name="notlisttitle">Notbaşlığı</string>
+    <string name="notlisticerik">Notlar…</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="notlar">Notes</string>
+    <string name="notlarim">My Notes</string>
+    <string name="ayarlar">Settings</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="kaydet">Save</string>
+    <string name="vazgec">Cancel</string>
+
+
+    <string name="ayarlartv">Change Language</string>
+    <string name="notbaslikk">Note Title</string>
+    <string name="aciklama">Description</string>
+    <string name="noteklebaslik">Notes Title…</string>
+    <string name="notekle">Your Notes…</string>
+
+
+    <string name="hakkindametni">This application is written in the Kotlin language. Supports Android 7 and upper versions. It keeps your data in the Sqlite database.</string>
+    <string name="copyright">All Rights Reserved.</string>
+    <string name="gelistirici">Developer by Bilal Mercan</string>
+</resources>

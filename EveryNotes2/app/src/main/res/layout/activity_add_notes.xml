@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f5f5">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#f6f5f5"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/zamanvetarihtv"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#14274e"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            app:srcCompat="@drawable/note" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="417dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/griarkaplandesign"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="22dp"
+        android:paddingBottom="22dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/baslikbolumu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/notbaslikk"
+                android:textColor="#14274e"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/notbasligi"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:autofillHints=""
+                android:background="@color/white"
+                android:hint="@string/noteklebaslik"
+                android:inputType="text"
+                android:paddingStart="1dp"
+                android:paddingEnd="1dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textColorHint="#B5B5B5"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/notbolumu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/aciklama"
+                android:textColor="#14274e"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/noticerigi"
+                android:layout_width="338dp"
+                android:layout_height="237dp"
+                android:autofillHints=""
+                android:background="@color/white"
+                android:gravity="start"
+                android:hint="@string/notekle"
+                android:inputType="textMultiLine|text|textImeMultiLine"
+                android:paddingStart="1dp"
+                android:paddingEnd="1dp"
+                android:scrollbars="vertical"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textColorHint="#B5B5B5"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/noteklebtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/griarkaplandesign"
+        android:hint="@string/kaydet"
+        android:textAllCaps="false"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/vazgecbtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/griarkaplandesign"
+        android:hint="@string/vazgec"
+        android:textAllCaps="false"
+        android:textSize="22sp" />
+
+
+</LinearLayout>
